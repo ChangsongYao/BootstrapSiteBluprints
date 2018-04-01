@@ -6281,6 +6281,9 @@ ul.social {
   width: 100%;
   text-align: center;
 }
+ul.social > li {
+  display: inline-block;
+}
 .page-contents {
   padding-top: 20px;
   padding-bottom: 40px;
