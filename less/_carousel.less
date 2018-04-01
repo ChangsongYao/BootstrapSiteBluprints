@@ -20,6 +20,7 @@
     display: none;
     position: relative;
     .transition(.6s ease-in-out left);
+    max-height: 640px; //新增 added
 
     // Account for jankitude on images
     > img,
@@ -27,6 +28,12 @@
       .img-responsive();
       line-height: 1;
       min-width: 100%; //新增 added
+      @media (min-width: @screen-md-min) {
+        margin-top: -40px;
+      }
+      @media (min-width: @screen-lg-min) {
+        margin-top: -60px;
+      }
     }
   }
 
