@@ -5,5 +5,19 @@ ul.social {
   text-align: center;
   > li {
     display: inline-block;
+    > a {
+      display: inline-block;
+      font-size: 18px;
+      line-height: 32px;
+      .square(30px); //see bootstrap/mixin.less
+      border-radius: 36px;
+      background-color: @gray-light;
+      color: #fff;
+      margin: 0 3px 3px 0;
+        &:hover {
+          text-decoration: none;
+          background-color: @link-hover-color;
+        }
+    }
   }
 }
