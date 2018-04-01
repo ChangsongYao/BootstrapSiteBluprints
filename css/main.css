@@ -6275,6 +6275,12 @@ button.close {
     padding-bottom: 30px;
   }
 }
+ul.social {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
 .page-contents {
   padding-top: 20px;
   padding-bottom: 40px;
