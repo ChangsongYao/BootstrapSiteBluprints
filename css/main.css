@@ -3942,14 +3942,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
-  background-color: transparent;
+  color: #9a933d;
+  background-color: #fafafa;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #555;
-  background-color: #eeeeee;
+  color: #9a933d;
+  background-color: #ededed;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -3973,20 +3973,20 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
-  border-top-color: #333;
-  border-bottom-color: #333;
+  border-top-color: #9a933d;
+  border-bottom-color: #9a933d;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #eeeeee;
-  color: #555;
+  background-color: #ededed;
+  color: #9a933d;
 }
 .navbar-default .navbar-nav > .open > a .caret,
 .navbar-default .navbar-nav > .open > a:hover .caret,
 .navbar-default .navbar-nav > .open > a:focus .caret {
-  border-top-color: #555;
-  border-bottom-color: #555;
+  border-top-color: #9a933d;
+  border-bottom-color: #9a933d;
 }
 .navbar-default .navbar-nav > .dropdown > a .caret {
   border-top-color: #777;
@@ -3998,14 +3998,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #333;
-    background-color: transparent;
+    color: #9a933d;
+    background-color: #fafafa;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #555;
-    background-color: #eeeeee;
+    color: #9a933d;
+    background-color: #ededed;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -4018,7 +4018,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-link:hover {
-  color: #333;
+  color: #9a933d;
 }
 .navbar-inverse {
   background-color: #222;
