@@ -6239,8 +6239,9 @@ button.close {
   border-radius: 10px;
   cursor: pointer;
 }
+.carousel-indicators li:hover,
 .carousel-indicators .active {
-  background-color: #ccc;
+  background-color: #ededed;
 }
 .carousel-caption {
   position: absolute;
