@@ -168,11 +168,12 @@
 
   li {
     display: inline-block;
-    width:  10px;
-    height: 10px;
-    margin: 1px;
+    width:  18px;  //edtied
+    height: 18px;  //edtied
+    //margin: 1px; //edtied
     text-indent: -999px;
-    border: 1px solid @carousel-indicator-border-color;
+    background-color: @carousel-indicator-bg; //add
+    //border: 1px solid @carousel-indicator-border-color; //edtied
     border-radius: 10px;
     cursor: pointer;
 
@@ -184,15 +185,16 @@
     //
     // For IE8, we set solid black as it doesn't support `rgba()`. For IE9, we
     // set alpha transparency for the best results possible.
-    background-color: #000 \9; // IE8
-    background-color: rgba(0,0,0,0); // IE9
+    //background-color: #000 \9; // IE8  //edited
+    //background-color: rgba(0,0,0,0); // IE9 //edited
   }
   .active {
-    margin: 0;
-    width:  12px;
-    height: 12px;
+    //margin: 0;    //edited
+    //width:  12px; //edited
+    //height: 12px; //edited
     background-color: @carousel-indicator-active-bg;
   }
+
 }
 
 // Optional captions
