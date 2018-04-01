@@ -1,0 +1,1 @@
+lessc "E:\SourceCode\01Git\Bootstrapʵս\Project Template 1\less\__main.less" "E:\SourceCode\01Git\Bootstrapʵս\Project Template 1\css\main.css"
