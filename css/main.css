@@ -6275,6 +6275,10 @@ button.close {
     padding-bottom: 30px;
   }
 }
+.page-contents {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
